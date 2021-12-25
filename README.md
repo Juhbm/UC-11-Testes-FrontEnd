@@ -11,3 +11,7 @@ a frase do site que relaciona a quantidade de resultados encontrados, expressa a
 referente a palavra gestão. Supõe-se que é um erro interno de programação onde não foi devidamente programada a condição para exibir o número real de resultados encontrados.
 Esse erro deve ser corrigido pois emite divergência de informação no resultado e pode confundir o usuário/cliente.
 
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/88734340/147393719-f06e26f6-2e55-4f1d-bfb4-fea946528e01.png" width="700px" />
+</div>
