@@ -26,3 +26,4 @@ Ao realizar automação observou-se que ao acessar o site o click no link do íc
 Cada senha demonstrada (mediante um laço de repetição for) apresenta, no console da IDE Eclipse o resultado corretamente da mensagem de senha: incorreta, curta e correta. A mensagem do campo da senha vazia não apareceu no console pois a condição é que se mensagem for diferente de vazia, emite a mensagem, como independente das senhas erradas ou curtas o campo não ficava vazio, logo a mensagem de cada situação é exibida.
 
 Sendo assim, o teste realizado para as funções propostas foi efetuado com sucesso.
+Link para acesso do código: https://github.com/Juhbm/UC-11-Testes-FrontEnd/tree/master
