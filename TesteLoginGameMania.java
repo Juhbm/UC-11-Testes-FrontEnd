@@ -28,7 +28,7 @@ public class TesteLoginGameMania {
 
 		driver.findElement(By.id("link_login")).click();
 
-		// Primeiro Teste
+		// Teste usando o laço de repetição for para 4 senhas: incorreta, curta, vazia e correta.
 
 		WebElement inputEmail = driver.findElement(By.id("login"));
 		WebElement inputSenha = driver.findElement(By.id("senha"));
@@ -47,13 +47,25 @@ public class TesteLoginGameMania {
 				botao.click();
 				
 				
-				Thread.sleep(5000);
+				Thread.sleep(3000);
 				
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}	
 		}
+		
+		
+		// Teste senha individual
+		
+		/*WebElement inputEmail = driver.findElement(By.id("login"));
+		WebElement inputSenha = driver.findElement(By.id("senha"));
+		WebElement botao = driver.findElement(By.id("enviar"));
+		
+		inputEmail.sendKeys("juliana@email.com");
+		inputSenha.sendKeys("senai1111");
+		botao.click();
+		*/
 
 		WebElement mensagem = driver.findElement(By.id("mensagem"));
 
